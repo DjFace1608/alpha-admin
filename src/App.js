@@ -12,7 +12,6 @@ function App() {
   );
 }
 export default App;
-import React from 'react';
 import ProductList from './components/ProductList';
 import ProductImport from './components/ProductImport';
 import ProductImportExcel from './components/ProductImportExcel';

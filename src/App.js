@@ -1,7 +1,6 @@
 import React from 'react';
 import ProductList from './components/ProductList';
 import ProductImport from './components/ProductImport';
-
 function App() {
   return (
     <div className="App">
@@ -12,5 +11,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

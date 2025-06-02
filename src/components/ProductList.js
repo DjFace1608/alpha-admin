@@ -5,7 +5,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get("https://alpha-backend-d0r9.onrender.com/api/products")
+    axios.get("https://alpha-backend-ztym.onrender.com/api/products")
       .then(res => setProducts(res.data))
       .catch(err => console.error(err));
   }, []);

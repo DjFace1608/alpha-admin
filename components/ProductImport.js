@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
 const ProductImport = () => {
   const [jsonText, setJsonText] = useState('');
   const [message, setMessage] = useState('');
-
   const handleImport = async () => {
     try {
       const products = JSON.parse(jsonText);
@@ -15,7 +13,6 @@ const ProductImport = () => {
       setMessage("❌ Fehler beim Import – ist das JSON korrekt?");
     }
   };
-
   return (
     <div>
       <h2>Produkte importieren</h2>
@@ -32,5 +29,4 @@ const ProductImport = () => {
     </div>
   );
 };
-
 export default ProductImport;

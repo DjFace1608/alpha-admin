@@ -8,7 +8,7 @@ const ProductImport = () => {
   const handleImport = async () => {
     try {
       const products = JSON.parse(jsonText);
-      await axios.post("https://alpha-backend-d0r9.onrender.com/api/products/import", products);
+      await axios.post("https://alpha-backend-ztym.onrender.com/api/products/import", products);
       setMessage("Import erfolgreich ✅");
     } catch (err) {
       console.error(err);
